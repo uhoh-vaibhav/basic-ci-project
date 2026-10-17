@@ -7,7 +7,10 @@ def multiply(a, b):
     """Return the product of two numbers."""
     return a * b
  
- 
+def subtract(a, b):
+    """Return the difference of two numbers."""
+    return a - b
+
 if __name__ == "__main__":
     print("Basic CI Demo")
     print("Addition:", add(10, 20))
